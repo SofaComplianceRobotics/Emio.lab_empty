@@ -16,7 +16,7 @@ Build your own lab for the application [Emio Labs](https://docs-support.complian
     }
     ```
 3. `lab_empty.py`: the python scene for __SOFA Robotics__, tipically a simulation of the robot Emio that you can launch from the Emio Labs application in exercises sections using buttons.  
-4. `setLabName.sh`: the script to set the name of your lab. This will replace all the occurance of `"empty"` with your chosen name. Usage is `setLabName.sh myName`. 
+4. `setLabName.sh`: the script to set the name of your lab. This will replace all occurences of `"empty"` with your chosen name. Usage is `setLabName.sh myName`. 
 
 ## Usage
 
