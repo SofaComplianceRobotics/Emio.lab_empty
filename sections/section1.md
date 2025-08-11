@@ -24,9 +24,9 @@ Write your open answer.
 **Quiz:**
 
 ::: question Add a multiple choices question? 
-- [X] wrong answer
-- [ ] correct answer
-- [X] wrong answer
+- [ ] wrong answer
+- [X] correct answer
+- [ ] wrong answer
 :::
 :::: 
 
