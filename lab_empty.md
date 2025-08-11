@@ -22,7 +22,7 @@ Use the `highlight` container to display warning messages.
 Also use the `highlight` container to display any information you want to highlight. 
 :::
 
-<!--Create sections -->
+<!--Add sections -->
 #include(assets/labs/lab_empty/sections/section1.md)
 #include(assets/labs/lab_empty/sections/section2.md)
 #include(assets/labs/lab_empty/sections/section3.md)
