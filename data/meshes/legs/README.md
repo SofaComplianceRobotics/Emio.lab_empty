@@ -1,4 +1,4 @@
-You should add your centerparts file in this folder.
+If you design your own legs, you should add your legs' files in this folder.
 
 For a leg you should provide:
 1. A surface mesh in the `stl` format for the visualization.
