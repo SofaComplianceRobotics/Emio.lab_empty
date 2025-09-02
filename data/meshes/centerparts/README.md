@@ -1,4 +1,4 @@
-You should add your legs file in this folder.
+If you design your part (connector), you should add your part's files in this folder.
 
 For a connector you should provide:
 1. A surface mesh in the `stl` format for the visualization.
