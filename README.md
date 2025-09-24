@@ -6,7 +6,7 @@ Build your own lab for the application [Emio Labs](https://docs-support.complian
 
 
 1. `lab_empty.md`: the markdown file to customize, and which will be displayed in the __Emio Labs__ application. 
-2. `lab_empty.json`: the json file for the application Emio Labs, with the title, description of the lab, and other info needed by the application:
+2. `lab.json`: the json file for the application Emio Labs, with the title, description of the lab, and other info needed by the application:
     ```json
     {
         "name": "lab_empty", // the name of the lab folder
