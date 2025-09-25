@@ -13,7 +13,6 @@ Build your own lab for the application [Emio Labs](https://docs-support.complian
         "filename": "lab_empty.md", // the name of the markdown file
         "title": "Lab Empty", // the title,... 
         "description": "discover...", //... and description of the lab which will appear in the main table of contents of the Emio Labs application
-        "url": "https://github.com/SofaComplianceRobotics/Emio.lab_empty" // Link to download the directory
     }
     ```
 3. `lab_empty.py`: the python scene for __SOFA Robotics__, tipically a simulation of the robot Emio that you can launch from the Emio Labs application in exercises sections using buttons.  
