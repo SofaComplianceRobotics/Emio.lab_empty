@@ -4,7 +4,6 @@ Build your own lab for the application [Emio Labs](https://docs-support.complian
 
 ## Description of the files
 
-
 1. `lab_empty.md`: the markdown file to customize, and which will be displayed in the __Emio Labs__ application. 
 2. `lab.json`: the json file for the application Emio Labs, with the title, description of the lab, and other info needed by the application:
     ```json
@@ -17,6 +16,7 @@ Build your own lab for the application [Emio Labs](https://docs-support.complian
     ```
 3. `lab_empty.py`: the python scene for __SOFA Robotics__, tipically a simulation of the robot Emio that you can launch from the Emio Labs application in exercises sections using buttons.  
 4. `setLabName.sh`: the script to set the name of your lab. This will replace all occurences of `"empty"` with your chosen name. Usage is `setLabName.sh myName`. 
+5. `requirements.txt`: the file to list the python packages required for your lab. See the README of the `modules/site-packages` directory. Or load the lab_empty in the Emio Labs application and read the "Install Additional Python Packages" section.
 
 ## Usage
 
