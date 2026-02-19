@@ -27,7 +27,10 @@ Also use the `highlight` container to display any information you want to highli
 #include(assets/labs/lab_empty/sections/section2.md)
 #include(assets/labs/lab_empty/sections/section3.md)
 
-
+<!--Python Packages-->
+:::: collapse Install Additional Python Packages
+#include(assets/labs/lab_empty/modules/site-packages/README.md)
+::::
 
 
 
