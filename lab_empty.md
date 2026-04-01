@@ -32,5 +32,7 @@ Also use the `highlight` container to display any information you want to highli
 #include(assets/labs/lab_empty/modules/site-packages/README.md)
 ::::
 
+#include(assets/labs/lab_empty/sections/authors.md)
+
 
 
