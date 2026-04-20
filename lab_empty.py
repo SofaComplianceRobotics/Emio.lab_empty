@@ -1,8 +1,8 @@
 def createScene(rootnode):
 
-    from utils.header import addHeader, addSolvers
-    from parts.controllers.assemblycontroller import AssemblyController
-    from parts.emio import Emio
+    from emio.utils.header import addHeader, addSolvers
+    from emio.parts.controllers.assemblycontroller import AssemblyController
+    from emio import Emio
 
     settings, modelling, simulation = addHeader(rootnode, inverse=True)
     rootnode.VisualStyle.displayFlags = ["showVisual", "showInteractionForceFields"]
