@@ -3,6 +3,7 @@ def createScene(rootnode):
     from emio.utils.header import addHeader, addSolvers
     from emio.parts.controllers.assemblycontroller import AssemblyController
     from emio import Emio
+    import Sofa
 
     settings, modelling, simulation = addHeader(rootnode, inverse=True)
     rootnode.VisualStyle.displayFlags = ["showVisual", "showInteractionForceFields"]
@@ -20,6 +21,7 @@ def createScene(rootnode):
                 centerPartType="rigid",
                 extended=False)
     if not emio.isValid():
+        Sofa.msg_error(simulation, "Emio is not valid, could not add it to the scene graph.")
         return
 
     simulation.addChild(emio)
