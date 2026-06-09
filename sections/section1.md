@@ -1,4 +1,4 @@
-:::::: collapse Section 1
+:::::: collapse {open} Section 1
 ### Section 1
 
 Organize your lab with sections. 

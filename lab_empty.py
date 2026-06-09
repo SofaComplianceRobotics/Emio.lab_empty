@@ -30,3 +30,21 @@ def createScene(rootnode):
     emio.attachCenterPartToLegs()
     assemblycontroller = AssemblyController(emio)
     emio.addObject(assemblycontroller)
+
+    # Add effector
+    emio.effector.addObject("MechanicalObject", template="Rigid3", position=[0, 0, 0, 0, 0, 0, 1] * 4)
+    emio.effector.addObject("RigidMapping", rigidIndexPerPoint=[0, 1, 2, 3])
+
+    # Target
+    effectorTarget = modelling.addChild('Target')
+    effectorTarget.addObject('EulerImplicitSolver', firstOrder=True)
+    effectorTarget.addObject('CGLinearSolver', iterations=50, tolerance=1e-10, threshold=1e-10)
+    effectorTarget.addObject('MechanicalObject', template='Rigid3',
+                             position=[0, 150, 0, 0, 0, 0, 1],
+                             showObject=True, showObjectScale=20)
+
+    # Add inverse components and GUI
+    emio.addInverseComponentAndGUI(effectorTarget.getMechanicalState().position.linkpath, barycentric=False)
+
+    # Components for the connection to the real robot 
+    emio.addConnectionComponents()
